@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     font-family: 'Ubuntu', sans-serif;
-    text-align: center;
 }
 header{
     background-color: darkgray;
@@ -22,7 +21,7 @@ li{
     margin-top: 2vw;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
 }
 .dropdown:hover .dropdown-tog{
@@ -80,7 +79,23 @@ button{
     height: 4vh;
     cursor: pointer;
 }
-button:hover{
+/* button:hover{
     width:4.5vw;
     height: 4.5vh;
+} */
+h1{
+    text-align: center;
+    margin-top: 4vh;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+
+}
+table, th, td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    background-color: burlywood;
 }

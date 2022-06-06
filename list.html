@@ -29,21 +29,47 @@
         </ul>
     </header>
     <div class="container">
-     To-do List
+     <h1>To-do List</h1>
     </div>
     <div class="form">
         <div class="frm1">
-        <input type="text" placeholder="Enter the to-do item" class="txt">
+        <input type="text" placeholder="Enter the to-do item" class="txt" id="text">
         </div>
         <div class="frm2">
             <textarea name="" id="pop" cols="30" rows="10" placeholder="Enter the description of your to-do item"></textarea>
         </div>
         <div class="button">
-            <button>Submit</button>
+            <button id="submit">Submit</button>
         </div>
 
     </div>
+        <table>
+        <h1>Your List:</h1>
+        <thead>
+
+            <tr>
+                <th>S.N</th>
+                <th>To-do</th>
+                <th>Desciption</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Eat Breakfast</td>
+                <td>Wake up at 7 and have coffee</td>
+                <td><button>Done</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fuck her very very very hard</td>
+            </tr>
+        </tbody>
+        </table>
+    
         
     
 </body>
+<script src="list.js"></script>
 </html>
