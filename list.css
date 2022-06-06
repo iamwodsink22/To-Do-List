@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+header{
+    background-color: darkgray;
+    height: 10vh;
+}
+ul{
+    padding: 2vw;
+}
+li{
+    display: inline;
+    margin: 2vw;
+    padding: 2vw;
+    cursor: pointer;
+    
+}
+.container{
+    margin-top: 2vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-tog{
+    display: block;
+    background-color: white;
+}
+
+
+.dropdown-tog{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 5vh;
+    right:51vw;
+}
+.dropdown-tog a{
+    display: block;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    padding: 1vh;   
+}
+.form{
+    margin-top: 4vh;
+}
+.form .frm1{
+    text-align: center;
+display: flex;
+justify-content: center;
+}
+.form .frm2{
+    margin-top: 2vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.form .frm1 .txt{
+    width: 20vw;
+    height: 4vh;
+} 
+.form .frm2 #pop{
+    width:30vw;
+    height: 10vh;
+} 
+.button{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+button{
+     background-color: cornflowerblue;
+     color: white;
+    border-radius: 4vh;
+    width: 4vw;
+    height: 4vh;
+    cursor: pointer;
+}
+button:hover{
+    width:4.5vw;
+    height: 4.5vh;
+}
