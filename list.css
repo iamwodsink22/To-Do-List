@@ -97,7 +97,8 @@ table, th, td{
     border-collapse: collapse;
 }
 th,td{
-    background-color: burlywood;
+    background-color: lightblue;
+    padding: 1vw 4vw;
 }
 #clr{
     margin-left: 2vw;

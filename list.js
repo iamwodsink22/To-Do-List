@@ -54,9 +54,11 @@ function deleted(item){
     added();
 }
 function clr(){
+    if(confirm("do you want to clear?")){
     console.log("Clearing");
     localStorage.clear();
     added();
+}
 }
 clear=document.getElementById('clr');
 clear.addEventListener("click", clr);
